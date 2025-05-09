@@ -1,0 +1,21 @@
+;;test package
+
+using rythin.system;
+
+def test:void(text:str) -> [
+	printnl("Hello World\n" + text);
+]
+
+def *ret_int:int -> [
+	return 1;
+]
+
+
+;;sempre tem que chamar a função principal
+def main:void -> [
+    def a:int = 1;
+    def b:int = 2;
+    def c:int = a + b;
+    printnl("Result: " + c++);
+    test("From Rythin!" + $ret_int());
+]
