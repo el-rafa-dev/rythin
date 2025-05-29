@@ -1,2 +1,2 @@
 # rythin
-Main repo of Rythin
+Only a test of integration oof Rythin Compiler in Go
